@@ -1,0 +1,112 @@
+.container{
+    width:1100px;
+    /* width:80%; */
+    margin:0 auto;
+}
+
+.subscriber-area{
+    display:flex;
+}
+.subscribe-content{
+    text-align:left;
+    margin-left:75px;
+}
+
+.subscribe-image{
+    width:50%;
+    margin-left:75px;
+    /* border:1px dashed blue; */
+    position:relative;
+    box-sizing:border-box;
+}
+
+
+.yellow-curve-box{
+    width:50%;
+    /* border: 1px solid red; */
+    margin-left:5%;
+    background:url("./images/Subscribe/yellow-curve.png");
+    background-repeat: no-repeat;
+    background-size:80%;
+    /* box-sizing:border-box; */
+}
+
+.yellow-curve-box img{
+    width:80%;
+}
+
+#small-curve{
+    width:60%;
+}
+
+.small-curve-box{
+    position:absolute;
+    top:4rem;
+    left:1rem;
+    /* border:1px solid black; */
+
+
+}
+
+
+
+@media(max-width:1024px){
+
+    #small-curve{
+        width:60%;
+    }
+    .small-curve-box{
+        position:absolute;
+        top:4rem;
+        left:1rem;
+        /* border:1px solid black; */
+    }
+    .subscribe-image{
+        margin-left:75px;
+    }
+
+    .subscribe-content{
+        text-align:left;
+        margin-left:75px;
+    }
+}
+
+@media(max-width:768px){
+    #small-curve{
+        width:60%;
+    }
+    .small-curve-box{
+        position:absolute;
+        top:4rem;
+        left:1rem;
+        /* border:1px solid black; */
+    }
+    .subscribe-image{
+        margin-left:75px;
+    }
+
+    .subscribe-content{
+        text-align:left;
+        margin-left:75px;
+    }
+}
+
+@media(max-width:480px){
+    .subscriber-area{
+        display:flex;
+        flex-direction:column;
+        justify-content:none;
+        align-items:center;
+        width:90%;
+    }
+
+    .subscribe-image{
+        margin-top:75px;
+    }
+
+    .subscribe-content{
+        margin-top:75px;
+        text-align:left;
+        padding-right:150px;
+    }
+}
