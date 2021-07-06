@@ -1,0 +1,161 @@
+
+body{
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+  /* Global */
+
+P{
+    color:grey;
+}
+
+ /* first-section */
+
+#first-section{
+    display:flex;
+}
+
+#first-section .left-part{
+    margin-top:80px;
+    margin-left:80px;
+}
+
+.half-part{
+    width:45%;
+    margin-left:20px;
+    padding:10px;
+}
+
+#first-section .half-part img{
+    width:70%;
+}
+
+.left-part h1{
+    font-size:35px;
+    font-weight:700 ;
+}
+
+.left-part p{
+    margin-bottom:45px;
+    padding:5px;
+    font-size:12px;
+}
+
+.inner-style{
+    color:orange ;
+}
+
+.btn{
+    text-decoration:none;
+    background-image:linear-gradient(salmon, orange);
+    padding: 8px 15px;
+    color:white;
+    border-radius:10px;
+}
+
+
+/* second-section */
+
+#second-section{
+    display:flex;
+    background:url("images/second-bg.png");
+    background-repeat:no-repeat;
+    background-size:100%;
+    background-position:center;
+    over-flow:hidden;
+}
+
+#second-section .left-part img{
+    width:55%;
+    margin-left:120px;
+    margin-top:35px;
+    /* margin-bottom:0; */
+    /* border:1px dashed red; */
+}
+
+
+.right-part{
+    margin-top:130px;
+    margin-left:50px;
+}
+
+.right-part p{
+    font-size:12px;
+    width:70%;
+    margin-bottom:50px;
+}
+
+/* Third-section */
+
+.head-content{
+    text-align:center;
+    width:40%; 
+    margin-left:300px;
+}
+
+.head-content p{
+    font-size:12px;
+}
+
+.image-content{
+    display:flex;
+    justify-content:center;
+    margin-bottom:50px;
+}
+
+.content{
+    width:25%;
+    margin:20px;
+    padding:10px;
+    border-radius:10px;
+    box-shadow: 0 0 10px grey;
+}
+
+.content img{
+    width:99%;
+    padding:2px;
+}
+
+.content p{
+    font-size:12px;
+}
+
+/* fourth-section */
+
+.followers-site{
+    display:flex;
+    justify-content:center;
+    border-radius:10px;
+    width:86%;
+    box-shadow: 0px 0px 10px grey;
+    margin-left:90px;
+    margin-bottom:50px;
+    /* border:1px solid blue; */
+}
+.followers-site h1{
+    margin:0;
+    padding-top:20px;
+    font-size:25px;
+    font-weight:bold;
+}
+
+.followers-site P{
+    font-size:10px;
+    margin:0;
+    padding-bottom:20px;
+}
+
+.site{
+    margin:0 60px;
+}
+
+
+
+
+footer{
+    text-align:center;
+    background:black;
+    color:white;
+    padding: 30px 0;
+}
